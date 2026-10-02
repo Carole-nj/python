@@ -28,3 +28,17 @@ is_hungry = True
 
 print(is_hungry)
 
+#typecasting
+name = "Carol"
+age = 22
+gpa = 3.5
+is_hungry = True
+
+age_as_string = str(age)
+print(age_as_string)
+
+name_as_integer = int(name)  # This will raise an error because "Carol" cannot be converted to an integer
+
+
+
+
