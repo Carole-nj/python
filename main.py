@@ -37,8 +37,34 @@ is_hungry = True
 age_as_string = str(age)
 print(age_as_string)
 
-name_as_integer = int(name)  # This will raise an error because "Carol" cannot be converted to an integer
+try:
+	name_as_integer = int(name)
+except ValueError:
+	print("A name cannot be converted to an integer.")
 
+#input
+name = input("What is your name? ")
+print("Hello, " + name + "!")
 
+#Exercise rectangle area
+length = float(input("Enter the length of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
+area = length * width
 
+print("The area of the rectangle is: " + str(area))
 
+#exercise 2 shopping cart program
+item = input("Enter the name of the first item: ")
+price = float(input("Enter the price of the item: "))
+quantity = int(input("Enter the quantity of the item: "))
+total = price * quantity
+print("Item: " + item)
+print("Price: $" + str(price))
+print("Quantity: " + str(quantity))
+print("Total: $" + str(total))
+
+print("Thank you for shopping with us!")
+
+#Madlibs game
+#word game where you create a story by filling in the blanks with words of your choice
+ 
