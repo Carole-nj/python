@@ -75,3 +75,13 @@ verb = input("Verb: ")
 
 print(f"The {adjective} {noun} {verb} quickly.")
 
+#arithmetic operations
+friends = 5
+friends += 2 
+friends -= 1
+friends *= 3
+friends /= 2
+
+print(friends)
+remaining_friends = friends % 2
+print(remaining_friends)
