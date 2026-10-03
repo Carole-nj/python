@@ -100,3 +100,9 @@ result = round(x)
 #result = min(x, y, z)
 
 print(result)
+
+import math
+print(math.pi)
+print(math.e)
+
+
