@@ -105,4 +105,14 @@ import math
 print(math.pi)
 print(math.e)
 
+#excercise 3 circle circumference calculator
+import math
+radius = float(input("Enter the radius of the circle: "))
+circumference = 2 * math.pi * radius
+print("The circumference of the circle is: " + str(circumference))
+
+
+
+
+
 
