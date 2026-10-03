@@ -117,6 +117,9 @@ radius = float(input("Enter the radius of the circle: "))
 area = math.pi * (radius ** 2)
 print("The area of the circle is: " + str(area))
 
-
-
-
+#exercise 5 hypotenuse of a right triangle calculator
+import math
+a = float(input("Enter the length of the first leg: "))
+b = float(input("Enter the length of the second leg: "))
+c = math.hypot(a, b)
+print("The hypotenuse of the right triangle is: " + str(c))
