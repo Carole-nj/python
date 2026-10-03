@@ -85,3 +85,18 @@ friends /= 2
 print(friends)
 remaining_friends = friends % 2
 print(remaining_friends)
+
+#math functions
+
+
+x = 3.14
+y = 4
+z = 5
+
+result = round(x)
+#result = abs(y)
+#result = pow(y, 3)
+#result = max(x, y, z)
+#result = min(x, y, z)
+
+print(result)
