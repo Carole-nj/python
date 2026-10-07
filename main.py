@@ -134,4 +134,9 @@ elif age >= 0:
 else:
     print("You are not an adult.")
 
-	
+#example
+response = input("Do you want to come over? (yes/no): ")
+if response.lower() == "yes":
+    print("Coming over...")	
+    elif response.lower() == "no":
+        print("Okay, maybe next time.")
