@@ -149,3 +149,16 @@ if for_sale.lower() == "yes":
         print("The item is for sale at $" + str(price))
     else:
         print("Invalid price.")
+
+online = False
+if online:
+    print("The item is available online.")
+else:
+    print("The item is not available online.")
+
+
+online = True
+if online:
+    print("The item is available online.")
+else:
+    print("The item is not available online.")
