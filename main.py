@@ -138,5 +138,14 @@ else:
 response = input("Do you want to come over? (yes/no): ")
 if response.lower() == "yes":
     print("Coming over...")	
-    elif response.lower() == "no":
-        print("Okay, maybe next time.")
+elif response.lower() == "no":
+ print("Okay, maybe next time.")
+
+#another example
+for_sale = input("Is the item for sale? (yes/no): ")
+if for_sale.lower() == "yes":
+    price = float(input("Enter the price of the item: "))
+    if price > 0:
+        print("The item is for sale at $" + str(price))
+    else:
+        print("Invalid price.")
