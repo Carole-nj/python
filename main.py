@@ -123,3 +123,11 @@ a = float(input("Enter the length of the first leg: "))
 b = float(input("Enter the length of the second leg: "))
 c = math.hypot(a, b)
 print("The hypotenuse of the right triangle is: " + str(c))
+
+
+#if conditional statements
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are not an adult.")
