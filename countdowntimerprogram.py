@@ -1,5 +1,9 @@
 import time
 
-time.sleep(5)
+my_time = int(input("Enter the time in seconds: "))
 
-print("5 seconds have passed")
+for x in range(my_time, 0, -1):
+    print(x)
+    time.sleep(1)
+
+print("Time's up!")
