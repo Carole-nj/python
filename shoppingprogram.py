@@ -10,3 +10,12 @@ while True:
     foods.append(food)
     prices.append(price)
     total += price
+
+    print("^^^your cart^^^")
+    for food in foods:
+        print(food)
+
+    for price in price:
+        print(price)
+
+    print(f"your total is: ${total:.2f}")
