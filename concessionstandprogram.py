@@ -17,11 +17,13 @@ for key, value in menu.items():
 print("------------------------")
 
 while True:
-    food = input("Select an item (q to quit): ").lower()
+    food = input("Select an item (q to quit): ").strip().lower()
     if food == "q":
         break
     elif menu.get(food) is not None:
         cart.append(food)
+    else:
+        print("That item is not on the menu.")
 
 print("------ YOUR ORDER ------")
 for food in cart:
