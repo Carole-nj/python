@@ -1,5 +1,6 @@
 # dictionary =  a collection of {key:value} pairs
 #                        ordered and changeable. No duplicates
+import pydoc
 
 capitals = {"USA": "Washington D.C.",
                     "India": "New Delhi",
@@ -7,7 +8,7 @@ capitals = {"USA": "Washington D.C.",
                     "Russia": "Moscow"}
 
 print(dir(capitals))
-print(help(capitals))
+print(pydoc.render_doc(capitals))
 print(capitals.get("Japan"))
 
 if capitals.get("Russia"):
